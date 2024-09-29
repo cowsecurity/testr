@@ -15,7 +15,7 @@ There is a cronjob which emualates admin actions every minute in the docker cont
 1. Clone the repo locally `git clone https://github.com/bmdyy/testr`
 2. Enter the folder `cd testr`
 3. Build the docker container: `docker build -t testr .`
-4. Run the container: `docker run -t testr`
+4. Run the container: `docker run -t -p 5000:5000 testr`
 
 ## Solutions
 Solutions and explanations may be found in `./exploit`
